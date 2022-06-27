@@ -24,5 +24,5 @@ def myFilter(fn, l):
     return newL
 
 li=[1,2,3,4,5,6]
-li2 = myFilter(lambda x: x%2==1, li)
+li2 = myFilter(lambda x: x%2==1, li) #can control the logic dynamically
 print(li2)
