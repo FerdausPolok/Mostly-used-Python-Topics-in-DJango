@@ -5,6 +5,12 @@
 #FROM LIST
 
 #list from another list
+myLst = ["Ferdaus"]
+newLst = [i.upper() for i in myLst]
+
+print(myLst)
+print(newLst)
+
 myLst = [1,2,3,4,5,6]
 newLst = [i+1 for i in myLst]
 
